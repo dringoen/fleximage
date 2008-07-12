@@ -42,6 +42,8 @@ class Test::Unit::TestCase #:nodoc:
     when :cmyk
       MockFile.new("#{RAILS_ROOT}/../fixtures/cmyk.jpg")
     
+    when :auto_orient_photo
+      MockFile.new("#{RAILS_ROOT}/../fixtures/auto_orient_photo.jpg")
     end
   end
   
